@@ -46,6 +46,14 @@ module.exports = {
         },
         {
           type: 'category',
+          label: 'Passwordless',
+          items: [
+            'guides/passwordless/webauthn'
+            // 'guides/passwordless/social-sign-in'
+          ]
+        },
+        {
+          type: 'category',
           label: 'Customizing Ory',
           items: [
             'guides/custom-domains',
